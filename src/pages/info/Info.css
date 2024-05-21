@@ -1,0 +1,43 @@
+.coin-info {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+
+.coin-info-left {
+  color: #fff;
+  width: 30%;
+  border-right: 1px solid #ffffff87;
+}
+
+.coin-image {
+  text-align: center;
+}
+
+.coin-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.coin-info-left h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56.02px;
+  text-align: center;
+  margin: 20px;
+  /* 116.708% */
+}
+
+.coin-info-left p {
+  font-size: 18px;
+  color: #ffffff87;
+  margin: 10px;
+}
+.coin-info-left h2 {
+  margin: 10px;
+}

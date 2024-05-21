@@ -1,0 +1,32 @@
+.carousel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 400%;
+}
+
+.carousel-item {
+  flex: 0 0 25%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-item:not(.active) {
+  display: none;
+}
+
+.MainImg {
+  width: 140px;
+  height: 140px;
+  margin-top: 30px;
+  margin-left: 80px;
+  /* margin-top: 30px; */
+}

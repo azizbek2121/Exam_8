@@ -1,0 +1,155 @@
+.home-wrapper {
+  margin-bottom: 40px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.home h1 {
+  color: #87ceeb;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  margin-top: 50px;
+  letter-spacing: -0.5px;
+}
+
+.card-swiper p {
+  color: #a9a9a9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.98px;
+  letter-spacing: 0.1px;
+  margin: 7px 0;
+  text-transform: capitalize;
+}
+
+.home span {
+  color: #a9a9a9;
+  display: block;
+  text-align: center;
+
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21.98px;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+}
+
+/* .mySwiper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} */
+.card-swiper {
+  text-align: center;
+  margin-top: 40px;
+  width: 110px !important;
+  /* height:300px; */
+}
+
+.card-swiper img {
+  width: 90px;
+  object-fit: cover;
+}
+
+.card-swiper h3 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 1000px;
+  height: 50px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  background: transparent;
+  border: 1px solid #e2e2e2;
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder {
+  color: #e2e2e2;
+}
+
+.coin-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.table-header {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #87ceeb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 1000px;
+  padding: 0 20px;
+  color: #000;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .page-item {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.pagination .page-link {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination .page-link:hover {
+  text-decoration: underline;
+}
